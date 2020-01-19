@@ -11,23 +11,26 @@ block content
 
     br
     br
-    from(action='/bicicletas/create' method='post')
+    form(action='/bicicletas/create' method='post')
         label(for='id') ID:
         input#id(type="text" name='id')
         br
-        label(for='color') Color
+        label(for='color') Color:
         input#color(type='text' name='color')
         br
-        label(for='modelo') Modelo
+        label(for='modelo') Modelo:
         input#modelo(type='text' name='modelo')
         br
-        label(for='lat') Latitud
+        label(for='lat') Latitud:
         input#lat(type='text' name='lat')
         br
-        label(for='lng') Longitud
+        label(for='lng') Longitud:
         input#lng(type='text' name='lng')
         br
+        //button.btn.btn-primary(type='submit') OK
         input.btn(type='submit' value='OK')
+
+
 
 
 
