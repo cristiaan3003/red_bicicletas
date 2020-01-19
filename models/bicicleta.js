@@ -26,11 +26,12 @@ Bicicleta.findById = function(aBiciId){
 Bicicleta.removeById = function(aBiciId){
     for(i=0;i<Bicicleta.allBicis.length;i++){
         if(Bicicleta.allBicis[i].id==aBiciId){
-            Bicicleta.allBicis.slice(i,1);
+            Bicicleta.allBicis.splice(i,1);
             break;
         }
     }
 }
+
 
 var a = new Bicicleta(1,'rojo','urbana',[31.6466456,-60.7098175])
 var b = new Bicicleta(2,'blanca','urbana',[31.5566456,-60.998175])
