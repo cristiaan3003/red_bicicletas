@@ -3,7 +3,7 @@ var router = express.Router();
 var bicicletaController = require('../controllers/bicicletaController');
 
 /* GET bicicletas listing. */
-router.get('/', bicicletaController.bicicletas_list);
+router.get('/', bicicletaController.bicicleta_list);
 
 router.get('/create',bicicletaController.bicicleta_create_get);
 router.post('/create',bicicletaController.bicicleta_create_post);
