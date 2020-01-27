@@ -35,3 +35,12 @@ cannot perform readlinkat() on the mount namespace file descriptor of the init p
  sudo snap refresh core --edge
 
  reference: https://askubuntu.com/questions/1042270/snap-apps-now-wont-start-with-cannot-perform-readlinkat-error
+
+
+ ## NOTAS:
+ for check uptades packages
+
+  - 1)instalar npm-check-updates global: npm install -g npm-check-updates
+  - 2)Ejecuta y comprueba tu package.json del proyecto: ncu
+  - 3)ncu u
+  - 4) npm update
